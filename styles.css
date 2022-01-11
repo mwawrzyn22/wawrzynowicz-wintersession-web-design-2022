@@ -1,62 +1,118 @@
 * {
 margin: 0px;
 padding: 0px;
+
+
 }
 
 body{
-    background-color: burlywood;
-    margin-left: 15%;
-    margin-right: 15%;
+    background-color: #da7272;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-top: 10%;
 }
 
 h1{
     font-size: 62px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 24px;
-    color: brown;
+    color: rgb(214, 214, 214);
+    border: 5px solid rgb(231, 231, 215);
+    border-radius: 25px;
+    border-style: line; 
+}
+
+h1:hover{
+    font-size: 62px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 24px;
+    color: rgb(214, 214, 214);
+    border: 5px solid rgb(255, 255, 0);
+    border-radius: 25px;
+    border-style: dotted; 
 }
 
 h2{
     font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
     margin-bottom: 12px;
+    margin-left: 30px;
+    color: rgb(230, 196, 196);
+    letter-spacing: 1px;
 }
 
 h3{
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 12px;
-    color: cornflowerblue;
+    margin-left: 40px;
+    color: rgb(126, 87, 87);
+    letter-spacing: 1px;
+}
+
+h3:hover{
+    font-size: 16px;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    margin-bottom: 12px;
+    margin-left: 40px;
+    color: #3373fd;
+    letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 p{
     font-size: 18px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 16px;
-    line-height: 24px;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 50px;
+
+}
+
+ul{
+    font-size: 18px;
+    font-family:  'Mochiy Pop P One', sans-serif;
+    margin-bottom: 15px;
+    margin-left: 200px;
+    line-height: 20px;
+    color: rgb(51, 51, 51);
+    font-style: italic;
 }
 
 .pullquote{
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 16px;
-    line-height: 30px;
-    color: red;
+    line-height: 40px;
+    color: rgb(194, 165, 165);
+    letter-spacing: 3px;
 }
 
 .pullquote:hover{
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 16px;
-    line-height: 30px;
-    color: rgb(228, 168, 168);
+    line-height: 40px;
+    color: rgb(175, 228, 168);
+    letter-spacing: 3px;
 }
 
 #pullquotespecial{
     font-size: 24px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Mochiy Pop P One', sans-serif;
     margin-bottom: 16px;
     line-height: 30px;
-    color: rgb(15, 61, 42);
+    color: rgb(194, 165, 165);
+}
+
+.headingborder{
+    padding-left: 50px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
